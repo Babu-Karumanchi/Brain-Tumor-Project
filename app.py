@@ -8,7 +8,7 @@ import cv2
 LABELS = ['glioma','meningioma','notumor','pituitary']
 
 def load_model():
-    model = tf.keras.models.load_model('my_model.keras')
+    model = tf.keras.models.load_model('BrainTumorModel.keras')
     return model
 
 model = load_model()
